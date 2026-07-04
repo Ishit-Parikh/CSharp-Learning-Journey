@@ -59,16 +59,31 @@
 
 ## Running the Code
 
+Each section is its own console project. Run a section with:
+
 ```bash
-dotnet run
+dotnet run --project section-XX-name
+```
+
+### Examples
+
+```bash
+dotnet run --project section-01-intro
+dotnet run --project section-02-decisions
+```
+
+Or build everything at once:
+
+```bash
+dotnet build
 ```
 
 ## Structure
 
 ```
-/section-01-intro/
-/section-02-decisions/
+section-01-intro/         # Section 1 project
+section-02-decisions/     # Section 2 project
 ...
 ```
 
-Each folder contains the project/code for that section.
+Each folder is a separate .NET console project.
