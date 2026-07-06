@@ -10,7 +10,7 @@ public class CodeExe6
         System.Console.WriteLine("Enter a second number: ");
         double number2 = Convert.ToDouble(Console.ReadLine());
         System.Console.WriteLine("Enter one of the following operations to perform (+, -, *, /):");
-        string operation = Console.ReadLine();
+        string operation = Console.ReadLine() ?? "";
         double result = 0;
         switch (operation)
         {
