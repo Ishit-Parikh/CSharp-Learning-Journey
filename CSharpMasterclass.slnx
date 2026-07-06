@@ -8,4 +8,7 @@
   <Folder Name="/section-03-Loops/">
     <Project Path="section-03-Loops/Section-03.csproj" />
   </Folder>
+  <Folder Name="/section-04-Function-and-Methods/">
+    <Project Path="section-04-Function-and-Methods/Section-04.csproj" />
+  </Folder>
 </Solution>
