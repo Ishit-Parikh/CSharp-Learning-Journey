@@ -5,4 +5,7 @@
   <Folder Name="/section-02-decisions/">
     <Project Path="section-02-decisions/Section02.csproj" />
   </Folder>
+  <Folder Name="/section-03-Loops/">
+    <Project Path="section-03-Loops/Section-03.csproj" />
+  </Folder>
 </Solution>
