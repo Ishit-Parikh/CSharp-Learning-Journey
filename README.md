@@ -10,7 +10,7 @@
 
 - [x] **Section 1** — Introduction, DataTypes & Variables
 - [x] **Section 2** — Making Decisions
-- [ ] **Section 3** — Loops
+- [x] **Section 3** — Loops
 - [ ] **Section 4** — Functions and Methods
 - [ ] **Section 5** — Object Oriented Programming (OOP)
 - [ ] **Section 6** — Collections
