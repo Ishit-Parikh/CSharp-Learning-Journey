@@ -9,7 +9,7 @@
 ## Progress
 
 - [x] **Section 1** — Introduction, DataTypes & Variables
-- [ ] **Section 2** — Making Decisions
+- [x] **Section 2** — Making Decisions
 - [ ] **Section 3** — Loops
 - [ ] **Section 4** — Functions and Methods
 - [ ] **Section 5** — Object Oriented Programming (OOP)
