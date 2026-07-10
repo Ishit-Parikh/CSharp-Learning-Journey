@@ -1,3 +1,4 @@
 ﻿using Section05;
 
-Prac.main();
+//Prac.main();
+CodeExe10.Run();
