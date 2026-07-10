@@ -1,5 +1,3 @@
-using System.Runtime.Intrinsics.Arm;
-
 namespace Section05;
 
 public class Prac
@@ -8,8 +6,14 @@ public class Prac
     private string programmingLanguage;
 
     public string ProgrammingLanguage {
-        get => programmingLanguage;
         
+        //get => programmingLanguage;
+        get
+        {
+            return programmingLanguage;
+        }
+        
+        //set => programmingLanguage = value
         set
         {
             if (string.IsNullOrEmpty(value))
