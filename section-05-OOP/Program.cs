@@ -1,3 +1,3 @@
 ﻿using Section05;
 
-Prac.Main();
+Prac.main();
