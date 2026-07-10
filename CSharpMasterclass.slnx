@@ -11,4 +11,7 @@
   <Folder Name="/section-04-Function-and-Methods/">
     <Project Path="section-04-Function-and-Methods/Section-04.csproj" />
   </Folder>
+  <Folder Name="/section-05-OOP/">
+    <Project Path="section-05-OOP/Section05.csproj" />
+  </Folder>
 </Solution>
