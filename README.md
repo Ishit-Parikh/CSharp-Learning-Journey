@@ -12,7 +12,7 @@
 - [x] **Section 2** — Making Decisions
 - [x] **Section 3** — Loops
 - [x] **Section 4** — Functions and Methods
-- [ ] **Section 5** — Object Oriented Programming (OOP)
+- [x] **Section 5** — Object Oriented Programming (OOP)
 - [ ] **Section 6** — Collections
 - [ ] **Section 7** — Error Handling
 - [ ] **Section 8** — Inheritance
