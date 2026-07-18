@@ -55,6 +55,57 @@
 - Char and UTF-16 (emojis)
 - Mini project: Addition Calculator
 
+### Section 2 — Making Decisions
+
+- Logical operators (AND, OR, NOT), bool datatype
+- If, else, else-if, nested if
+- Relational operators (==, !=, <, >, <=, >=)
+- Switch statements, when to pick switch vs if
+- One-line if (ternary-style)
+- String methods: Trim, ToLower (input sanitization)
+- Increment/decrement (++/--), modulo operator
+- TryParse for safe numeric conversion
+- Random class for generating random numbers
+- Mini project: Quiz app, conditional calculator
+
+### Section 3 — Loops
+
+- For loop: syntax, init, condition, iterator
+- While loop: counter and condition-based iteration
+- Do-while (guaranteed one execution)
+- Break and continue statements
+- Arrays: declaration, indexing, length, inline init
+- Foreach loop
+- Multi-dimensional arrays (2D, 3D), jagged arrays
+- Escape characters (\r, \n), Thread.Sleep
+- Challenges: Rocket Landing, Guess the Number, text adventure, Average Calculator
+
+### Section 4 — Functions and Methods
+
+- Void methods: no params, single param, multiple params
+- Parameter modifiers: ref, out, in
+- Argument promotion (automatic type widening)
+- Top-level statements → classical Program class template
+- Fields: instance vs local variables
+- Expression-bodied members (=> syntax)
+- Recursion (methods calling themselves)
+- Mini project: WeatherSimulator (arrays, Random, for loops)
+
+### Section 5 — Object Oriented Programming (OOP)
+
+- Classes vs objects, creating custom classes
+- Member variables, custom constructors, constructor overloading
+- Auto-generated properties, custom get/set logic
+- Computed properties, read-only / write-only properties
+- Static methods and fields
+- Expression-bodied members, nested/partial classes
+- Optional and named parameters
+- Operator overloading, pass by value vs by reference
+- Access modifiers: public, private, const vs readonly
+- `is` and `as` operators (type checking)
+- ID Key pattern, the `this` keyword
+- Mini project: Quiz App (Question class, scoring, console colors)
+
 ---
 
 ## Running the Code
