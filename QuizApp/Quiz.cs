@@ -1,7 +1,3 @@
-using System.Drawing;
-using System.Dynamic;
-using System.Reflection.Metadata;
-
 namespace QuizApp
 {
     public class Quiz
