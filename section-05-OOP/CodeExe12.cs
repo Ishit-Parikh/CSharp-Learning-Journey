@@ -18,3 +18,38 @@ The result of execution for the default string should be:
 "Hello, my name is John and I am 30 years old."
 
 */
+
+public class CodeExe12
+{
+    private string _name;
+
+    public string Name
+    {
+        get => _name; 
+        set => _name = value;
+    }
+
+    private int _age {get; set;}
+    public int Age
+    {
+        get => _age;
+        set { if(value > 0) _age = value; }
+    }
+
+    public CodeExe12(string name, int age)
+    {
+        this._name = name;
+        this._age = age;
+    }
+
+    public void greet()
+    {
+        System.Console.WriteLine($"Hello, my name is {_name} and I am {_age} years old.");
+    }
+
+    public static void Run()
+    {
+        CodeExe12 person = new CodeExe12("John", 30);
+        person.greet();
+    }
+}
