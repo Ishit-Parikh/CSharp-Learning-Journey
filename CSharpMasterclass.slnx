@@ -14,4 +14,7 @@
   <Folder Name="/section-05-OOP/">
     <Project Path="section-05-OOP/Section05.csproj" />
   </Folder>
+  <Folder Name="/QuizApp/">
+    <Project Path="QuizApp/QuizApp.csproj" />
+  </Folder>
 </Solution>
