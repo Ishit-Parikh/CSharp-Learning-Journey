@@ -44,7 +44,7 @@ namespace QuizApp
 
         private void validateChoice(int userChoice, Question question)
         {
-            if(userChoice >= 1 && userChoice < 4)
+            if(userChoice >= 1 && userChoice <= 4)
             {
                 userChoice -= 1;
                 if (question.IsCorrect(userChoice))
