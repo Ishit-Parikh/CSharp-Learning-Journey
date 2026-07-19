@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/sec-01-to-05-self-challenege/">
+    <Project Path="sec-01-to-05-self-challenege/Challenge.csproj" />
+  </Folder>
   <Folder Name="/section-01-intro/">
     <Project Path="section-01-intro/Section01.csproj" />
   </Folder>
