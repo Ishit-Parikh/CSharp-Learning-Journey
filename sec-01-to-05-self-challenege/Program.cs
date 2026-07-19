@@ -1,15 +1,10 @@
-﻿using Challenge;
+using Challenge;
 
 internal class Program
 {
-    public static void Main(String[] args)
+    public static void Main(string[] args)
     {
-        Student[] students = new Student[]
-        {
-            
-        };
-
-        User user = new User(students);
+        User user = new User(10);
         user.UserOperations();
     }
 }
