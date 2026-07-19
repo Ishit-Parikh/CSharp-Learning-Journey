@@ -29,7 +29,7 @@ public class CodeExe12
         set => _name = value;
     }
 
-    private int _age {get; set;}
+    private int _age;
     public int Age
     {
         get => _age;
