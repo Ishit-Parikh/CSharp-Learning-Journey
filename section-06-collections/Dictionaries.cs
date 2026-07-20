@@ -2,6 +2,8 @@ using System.Collections;
 
 namespace Section06;
 
+
+/*
 public class Emp
 {
     public string? Name {get; set;}
@@ -15,6 +17,7 @@ public class Emp
         this.Salary = salary;
     }
 }
+*/
 
 public class Dictionaries
 {
@@ -37,7 +40,6 @@ public class Dictionaries
         {
             System.Console.WriteLine($"Name is {dict.Value} with ID {dict.Key}");
         }
-        */
 
         Dictionary<int, Emp> emp = new Dictionary<int, Emp>();
         emp.Add(1, new Emp("Ishit", 20, 200000));
@@ -47,6 +49,15 @@ public class Dictionaries
         {
             System.Console.WriteLine($"ID: {item.Key}, Name: {item.Value.Name}, Age: {item.Value.Age}, Salary: {item.Value.Salary}");
         }
+        */
+
+        //New way to declare Dictionary
+        var Codes = new Dictionary<string, string>
+        {
+            ["No"] = "Man",
+        };
+        Codes.Add("Ishit", "Parikh");
+
 
     }
 }
