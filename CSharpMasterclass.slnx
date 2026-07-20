@@ -1,7 +1,5 @@
 <Solution>
-  <Folder Name="/sec-01-to-05-self-challenege/">
-    <Project Path="sec-01-to-05-self-challenege/Challenge.csproj" />
-  </Folder>
+  <Folder Name="/sec-01-to-05-self-challenege/" />
   <Folder Name="/section-01-intro/">
     <Project Path="section-01-intro/Section01.csproj" />
   </Folder>
@@ -20,4 +18,5 @@
   <Folder Name="/QuizApp/">
     <Project Path="QuizApp/QuizApp.csproj" />
   </Folder>
+  <Project Path="section-06-collections/section-06-collections.csproj" />
 </Solution>
