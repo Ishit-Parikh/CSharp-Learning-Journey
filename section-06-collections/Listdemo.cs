@@ -1,5 +1,11 @@
 namespace Section06;
 
+public class Product
+{
+    public string Name {get; set;}
+    public int Price {get; set;}
+}
+
 public class Listdemo
 {
     public static void Run()
@@ -55,7 +61,7 @@ public class Listdemo
         {
             System.Console.WriteLine(num);
         }
-        */
+        
 
         //using Any func and Find all func together
         List<int> nums = [56,343,123,54,1,78];
@@ -76,6 +82,20 @@ public class Listdemo
         else
         {
             System.Console.WriteLine($"No element in the list is higher then {userChoice}");
+        }
+        */
+
+
+        //List of class objects
+        List<Product> products = new List<Product>
+        {
+            new Product{Name = "Wireless Mice", Price = 3500},
+            new Product{Name = "MCHOSE G75 Pro", Price = 4800}
+        };
+
+        foreach(Product product in products)
+        {
+            System.Console.WriteLine($"{product.Name} is available for Rs. {product.Price}");
         }
 
     }
