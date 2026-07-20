@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace Section06;
 
 public class Product
@@ -90,10 +92,19 @@ public class Listdemo
         List<Product> products = new List<Product>
         {
             new Product{Name = "Wireless Mice", Price = 3500},
-            new Product{Name = "MCHOSE G75 Pro", Price = 4800}
+            new Product{Name = "Logitech G034", Price = 2500},
+            new Product{Name = "MCHOSE G75 Pro", Price = 4800},
+            new Product{Name = "AntEsports MK3200", Price = 2200},
+            new Product{Name = "White Topographic deskmat L", Price = 399},
+            new Product{Name = "White Topographic deskmat XL", Price = 599},
+            new Product{Name = "White Topographic deskmat XXL", Price = 999}
         };
 
-        foreach(Product product in products)
+        int userChoice;
+        System.Console.Write("Enter the highest price range of product you want to see: ");
+        int.TryParse(Console.ReadLine(), out userChoice);
+        List<Product> priceFilteredProducts = products.Where(p => p.Price <= userChoice).ToList();
+        foreach(Product product in priceFilteredProducts)
         {
             System.Console.WriteLine($"{product.Name} is available for Rs. {product.Price}");
         }
