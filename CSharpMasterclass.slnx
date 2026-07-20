@@ -18,5 +18,5 @@
   <Folder Name="/QuizApp/">
     <Project Path="QuizApp/QuizApp.csproj" />
   </Folder>
-  <Project Path="section-06-collections/section-06-collections.csproj" />
+  <Project Path="section-06-collections/Section06.csproj" />
 </Solution>
