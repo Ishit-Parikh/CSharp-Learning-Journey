@@ -4,7 +4,7 @@ namespace Section06;
 
 public class Product
 {
-    public string Name {get; set;}
+    public string? Name {get; set;}
     public int Price {get; set;}
 }
 
