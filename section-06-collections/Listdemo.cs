@@ -1,13 +1,10 @@
-using System.Globalization;
-using System.Net.WebSockets;
-using System.Runtime.CompilerServices;
-
 namespace Section06;
 
 public class Listdemo
 {
     public static void Run()
     {
+        /*
         //create new empty List.
         List<int> ankio = new List<int>();
 
@@ -41,5 +38,45 @@ public class Listdemo
             System.Console.Write(words);
         }
         System.Console.WriteLine();
+        */
+
+
+        /*
+        //sorting a list
+        List<int> nums = [63541,23,5432,76547];
+        System.Console.WriteLine("List before sort() is called:");
+        foreach(var num in nums)
+        {
+            System.Console.WriteLine(num);
+        }
+        nums.Sort();
+        System.Console.WriteLine("\nList after the sort() is called:");
+        foreach(var num in nums)
+        {
+            System.Console.WriteLine(num);
+        }
+        */
+
+        //using Any func and Find all func together
+        List<int> nums = [56,343,123,54,1,78];
+        int userChoice;
+        System.Console.Write("Enter a number to see higher elements then that: ");
+        int.TryParse(Console.ReadLine(), out userChoice);
+        bool isHigher = nums.Any(nums => nums > userChoice);
+        if (isHigher)
+        {
+            List<int> higherThenUserChoice = nums.FindAll(nums => nums > userChoice);
+            System.Console.WriteLine($"Elements Higher then {userChoice} are:");
+            foreach(int num in higherThenUserChoice)
+            {
+                System.Console.Write($"{num} ");
+            }
+            System.Console.WriteLine("\n");
+        }
+        else
+        {
+            System.Console.WriteLine($"No element in the list is higher then {userChoice}");
+        }
+
     }
 }
