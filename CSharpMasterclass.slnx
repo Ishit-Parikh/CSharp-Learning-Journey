@@ -18,5 +18,8 @@
   <Folder Name="/QuizApp/">
     <Project Path="QuizApp/QuizApp.csproj" />
   </Folder>
+  <Folder Name="/section-07-ErrorHandling/">
+    <Project Path="section-07-ErrorHandling/section07.csproj" />
+  </Folder>
   <Project Path="section-06-collections/Section06.csproj" />
 </Solution>
