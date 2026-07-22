@@ -106,6 +106,54 @@
 - ID Key pattern, the `this` keyword
 - Mini project: Quiz App (Question class, scoring, console colors)
 
+### Section 6 — Collections
+
+- Lists: creation, Add/Remove, indexing, foreach iteration
+- Pre-initialized lists, sorting with `Sort()`
+- `Any()` and `FindAll()` with lambda predicates
+- Lists of class objects, `Where()` clause with LINQ
+- Dictionaries: `Dictionary<TKey, TValue>`, Add, key-based access
+- `KeyValuePair` iteration, dictionary of complex objects
+- Dictionary with `List<int>` values, nested iteration
+- Exercises: List implementation, predicate delegates, dictionary exercises
+
+### Section 7 — Error Handling
+
+- Try-catch-finally blocks
+- `TryParse` for safe input validation
+- Throwing exceptions with `throw new Exception()`
+- Multiple catch blocks for different exception types (`FormatException`, `IndexOutOfRangeException`)
+- `finally` block guarantees execution regardless of exception
+- Exercises: Finally demo, multi-exception handler
+
+---
+
+## Projects
+
+### QuizApp
+
+A console-based multiple-choice quiz application built during Section 5 (OOP).
+
+- **Files:** `Question.cs`, `Quiz.cs`, `Program.cs`
+- `Question` class — holds question text, options array, correct answer index, and an `IsCorrect()` method
+- `Quiz` class — manages the quiz lifecycle: display questions, validate user input, track score, show results
+- Console colors for feedback: green for correct questions, red for options, cyan for "Great Work", red for "Try again"
+- Input validation with `int.TryParse`, bounds checking on user choice (1-4)
+- Score evaluation: 0-33% "Try again", 34-66% "Great Work", 67-100% "Excellent"
+- Uses `ref` parameter to increment score
+- Constructor-based initialization, array of `Question` objects
+
+### Self-Challenge: Student Report Card
+
+A menu-driven student management system built as a self-challenge after Sections 1-5.
+
+- **Files:** `Student.cs`, `User.cs`
+- `Student` class — stores name and grades array, calculates average with `CalculateAverage()`
+- `User` class — manages a fixed-capacity array of students with a console menu
+- Menu operations: Add Student, Add Grades, View Report Cards, Exit
+- Manual array management (no Lists), capacity validation, graceful handling of empty states
+- Report card displays per-subject marks and calculated average
+
 ---
 
 ## Running the Code
@@ -121,6 +169,8 @@ dotnet run --project section-XX-name
 ```bash
 dotnet run --project section-01-intro
 dotnet run --project section-02-decisions
+dotnet run --project section-06-collections
+dotnet run --project section-07-ErrorHandling
 ```
 
 Or build everything at once:
@@ -132,9 +182,16 @@ dotnet build
 ## Structure
 
 ```
-section-01-intro/         # Section 1 project
-section-02-decisions/     # Section 2 project
-...
+section-01-intro/              # Section 1 — Introduction, DataTypes & Variables
+section-02-decisions/          # Section 2 — Making Decisions
+section-03-Loops/              # Section 3 — Loops
+section-04-Function-and-Methods/ # Section 4 — Functions and Methods
+section-05-OOP/                # Section 5 — Object Oriented Programming
+section-06-collections/        # Section 6 — Collections
+section-07-ErrorHandling/      # Section 7 — Error Handling
+section-08-Inheritance/        # Section 8 — Inheritance (in progress)
+QuizApp/                       # Quiz App project (Section 5)
+sec-01-to-05-self-challenege/  # Self-challenge exercises (Sections 1-5)
 ```
 
 Each folder is a separate .NET console project.
