@@ -13,7 +13,7 @@
 - [x] **Section 3** — Loops
 - [x] **Section 4** — Functions and Methods
 - [x] **Section 5** — Object Oriented Programming (OOP)
-- [ ] **Section 6** — Collections
+- [x] **Section 6** — Collections
 - [ ] **Section 7** — Error Handling
 - [ ] **Section 8** — Inheritance
 - [ ] **Section 9** — Interfaces and Polymorphism
