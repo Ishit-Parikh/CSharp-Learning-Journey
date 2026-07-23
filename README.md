@@ -15,7 +15,7 @@
 - [x] **Section 5** — Object Oriented Programming (OOP)
 - [x] **Section 6** — Collections
 - [x] **Section 7** — Error Handling
-- [ ] **Section 8** — Inheritance
+- [x] **Section 8** — Inheritance
 - [ ] **Section 9** — Interfaces and Polymorphism
 - [ ] **Section 10** — Structs
 - [ ] **Section 11** — Events and Delegates
