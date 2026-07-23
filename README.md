@@ -126,6 +126,16 @@
 - `finally` block guarantees execution regardless of exception
 - Exercises: Finally demo, multi-exception handler
 
+### Section 8 — Inheritance
+
+- Base class vs derived class (`:` syntax)
+- IS-A relationship (Dog IS-A Animal)
+- `virtual` and `override` for method overriding
+- `base` keyword to call parent class methods
+- Constructor inheritance: `base(name)` chaining
+- Multi-level inheritance (Animal → Dog → Cat)
+- Exercises: Animal/Dog override, Person/Employee constructors, multi-level override
+
 ---
 
 ## Projects
